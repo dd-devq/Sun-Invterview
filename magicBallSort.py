@@ -10,7 +10,7 @@ class Tube:
         print(self.balls)
 
     def isSorted(self):
-        if len(self.balls) != 4:
+        if len(self.balls) != 4 and len(self.balls) != 0:
             return False
         if len(self.balls) == 0:
             return True
